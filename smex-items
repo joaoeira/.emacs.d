@@ -1,21 +1,26 @@
 
 ;; ----- smex-history -----
 (
+ linum-mode
  eval-buffer
+ org-noter
  package-install
- flycheck-mode
- magit-version
+ delete-window
+ pdf-tools-help
  eshell
- customize-group
- cd
 )
 
 ;; ----- smex-data -----
 (
  (customize-group . 2)
  (eshell . 3)
- (package-install . 2)
+ (package-install . 3)
  (magit-version . 2)
- (eval-buffer . 17)
+ (eval-buffer . 27)
  (flycheck-mode . 2)
+ (pdf-tools-help . 1)
+ (pdf-tools-customize . 1)
+ (linum-mode . 9)
+ (delete-window . 1)
+ (org-noter . 1)
 )

@@ -18,8 +18,16 @@
 ;; MAGIT CONFIGURATION
 (use-package magit
   :bind (("C-x g" . magit-status))
+  :bind (("C-x M-g" . magit-dispatch-popup))  
+  )
+
+;;PDF-TOOLS CONFIGURATION
+(use-package pdf-tools
+  :config
+  (linum-mode -1)
   
   )
+
 
 
 (provide 'package-settings)

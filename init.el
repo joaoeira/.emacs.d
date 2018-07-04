@@ -29,6 +29,28 @@
   (require 'use-package))
 
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (org-noter pdf-tools use-package magit ido-vertical-mode ido-completing-read+ smex flycheck cyberpunk-theme))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(org-level-1 ((t (:foreground "#ff1493" :height 1.0))))
+ '(org-level-2 ((t (:foreground "#ffff00" :height 1.0))))
+ '(org-level-3 ((t (:foreground "#00ff00" :height 1.0))))
+ '(org-level-4 ((t (:foreground "#afd8af"))))
+ '(org-level-7 ((t (:foreground "#4c83ff"))))
+ '(org-todo ((t (:foreground "#e51616" :box (:line-width 1 :style none) :weight bold)))))
+
+
+
 ;; Main Settings Files:
 (require 'custom-functions)
 (require 'package-settings)
@@ -52,7 +74,7 @@
 ;(require 'flycheck)
 ;(global-flycheck-mode)
 
-
+(pdf-tools-install)
 
 
 ;; separate settings files

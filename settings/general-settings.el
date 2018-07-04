@@ -1,7 +1,6 @@
 
 (setq current-language-environment "English") ;; Environment Language
 (setq inhibit-startup-screen t) ;; Disable start-up Screen
-(setq initial-buffer-choice "~/Dropbox/org/orgmode.org" ) ;; Start-up File
 
 (menu-bar-mode 0) ;; Toggle menu bar
 
