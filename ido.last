@@ -1,0 +1,39 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/joao/Dropbox/" . "emacs/")
+ ("/home/joao/" . "Dropbox/")
+ ("/home/joao/.emacs.d/" . "settings/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/joao/.emacs.d/settings/"
+ "/home/joao/.emacs.d/"
+ "/home/joao/Dropbox/emacs/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "package-settings.el"
+ "init.el"
+ "general-settings.el"
+ "main.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/joao/.emacs.d/settings/" (23356 42596 947809 265000) "custom-functions.el~" "##" "package-settings.el" "../" "custom-functions.el" "./" "general-settings.el" ".#general-settings.el" "general-settings.el~")
+
+ ("/home/joao/.emacs.d/" (23356 42593 771818 655000) "../" "eshell/" "./" "init.el~" "bookmarks" "auto-save-list/" "network-security.data" "smex-items" "elpa/" "ido.last" "settings/" "init.el")
+
+ ("/home/joao/Dropbox/emacs/" (23356 41960 249898 426000) "entertainment.html" "org-html-themes-master/" "backup/" "capture/" "../" "bookmarks.bmk" "./" "Notes/" "Links.md~" "main.org" "org-wiki/" "org_html_export.css" "random_notes~" "entertainment.org" "short stories.org" "projects/")
+
+ ("/home/joao/Dropbox/" (23355 45594 830057 663000) "PasswordDatabaseVersion2.kdbx" "Superpowered memory/" "draft.odt" "Research/" "Legislativas-CirculosEleitorais.xlsx" "emacs/" "main.pdf" "‘Stubborn Attachments’_ Final with Images.pdf" "boyer2017.pdf" "../" "Programming/" ".dropbox" "./" "Writing/" "Quando Prometeu ao Olimpo o fogo roubou.docx" "Magazine/" "Aplicativos/" "story idea.docx" "Corporacion Favorita.zip" "2015-book-analysis.csv" "Learning/" "Lettuce be Cereal/" "Books/" "Utilities/" "compras.txt~" "PasswordDatabaseVersion2_tor.kdbx" "todo.txt" "Cortejo.zip" "2015-reading-analysis.ipynb" ".dropbox.cache/" "Universidade/" "Data/" "Notas/" "Backup/")
+
+ ("/home/joao/" (23356 40279 379217 870000) ".gstreamer-0.10/" ".gem/" "Templates/" ".cache/" ".ipynb_checkpoints/" "Pictures/" ".recently-used" ".kde/" "..profile.swp" ".emacs" ".thumbnails/" ".bundle/" ".gnupg/" "Dropbox/" ".xsession-errors" ".sudo_as_admin_successful" "kde-config-touchpad_0.8.1-2_all.deb" ".gphoto/" ".ICEauthority" ".rvmrc" ".pki/" "Public/" ".profile" ".QtWebEngineProcess/" "../" "themes/" "Desktop/" ".config/" ".gitconfig" ".Rhistory" ".vscode-react-native/" ".bash_history" ".rvm/" ".dropbox/" "./" ".bashrc-anaconda3.bak" "mozilla.pdf" "examples.desktop" ".jupyter/" "node_modules/" ".dmrc" ".texmf-var/" ".RData" ".macromedia/" "Calibre Library/" ".expo/" "anaconda3/" ".dbus/" ".android/" ".xsel.log" ".babel.json" ".pylint.d/" ".Xauthority" ".conda/" "Downloads/" "Music/" ".bash_logout" ".emacs.d/" ".mume/" ".gimp-2.8/" "..bash_profile.swp" ".nv/" ".gconf/" ".xsession-errors.old" ".compiz/" ".mono/" ".node_repl_history" "snap/" "package-lock.json" ".mozilla/" ".gnome/" ".bashrc" ".rstudio-desktop/" ".bashsrc" ".bashsrc.save" "Documents/" ".nano/" ".npm/" ".vscode/" ".thunderbird/" "Firefox_wallpaper.png" ".dropbox-dist/" ".adobe/" ".ipython/" ".local/" "R/" "Videos/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,37 @@
+;;; init.el --- main config file
+;;; Commentary:
+;;; Code:
+
+;; Paths to Load:
+(add-to-list 'load-path "~/.emacs.d/settings")
+(setq plugin-path "~/.emacs.d/el-get/")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+
+;; package.el + repositories:
+(require 'package)
+(add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/")))
+
+;; Main Settings Files:
+(require 'custom-functions)
+(require 'el-get-settings)
+(package-initialize) ;; loading packages from package.el
+(require 'general-settings)
+
+
+
+(require 'ido) ;; Interactively-Do-Things
+(ido-mode 1)
+
+(require 'flycheck)
+(global-flycheck-mode)
+
+;; separate settings files
+
+
+(global-set-key (kbd "C-g") 'keyboard-escape-quit)
