@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Main"
+(("Lettuce be Cereal"
+ (filename . "~/Dropbox/emacs/lettucebecereal.org")
+ (front-context-string)
+ (rear-context-string . "hat I am Doing]]")
+ (position . 564))
+("Main"
  (filename . "~/Dropbox/emacs/main.org")
  (front-context-string)
  (rear-context-string)

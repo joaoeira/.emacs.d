@@ -1,26 +1,31 @@
 
 ;; ----- smex-history -----
 (
- linum-mode
  eval-buffer
- org-noter
+ visual-line-mode
+ make-directory
  package-install
- delete-window
- pdf-tools-help
- eshell
+ list-packages
+ org-noter
+ image-transform-set-scale
 )
 
 ;; ----- smex-data -----
 (
  (customize-group . 2)
  (eshell . 3)
- (package-install . 3)
+ (package-install . 5)
  (magit-version . 2)
- (eval-buffer . 27)
+ (eval-buffer . 44)
  (flycheck-mode . 2)
- (pdf-tools-help . 1)
+ (pdf-tools-help . 2)
  (pdf-tools-customize . 1)
- (linum-mode . 9)
+ (linum-mode . 12)
  (delete-window . 1)
- (org-noter . 1)
+ (org-noter . 5)
+ (pdf-tools-enable-minor-modes . 1)
+ (visual-line-mode . 3)
+ (image-transform-set-scale . 1)
+ (list-packages . 1)
+ (make-directory . 2)
 )

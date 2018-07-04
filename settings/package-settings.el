@@ -22,12 +22,20 @@
   )
 
 ;;PDF-TOOLS CONFIGURATION
+
 (use-package pdf-tools
-  :config
-  (linum-mode -1)
-  
+ 
+; (add-hook 'term-mode-hook (lambda () (linum-mode -1)))
   )
 
+
+;;ORG-MODE CONFIGURATION
+(require 'org)
+;scale the latex preview
+(setq org-format-latex-options (plist-put org-format-latex-options :scale 2.0))
+
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c C-l") 'org-insert-link)
 
 
 (provide 'package-settings)

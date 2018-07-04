@@ -26,7 +26,7 @@
 (setq next-line-add-newlines t) ;; Add new line when going to the next line
 
 
-(global-linum-mode t) ;; Display line number at left
+(global-linum-mode 0) ;; Display line number at left
 
 ;; Mode Line Costumization
 (line-number-mode 0)
