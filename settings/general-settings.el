@@ -82,5 +82,7 @@
 (setq backup-inhibited t) ;; Disable backup
 (setq auto-save-default nil) ;; Disable auto save
 
+(setq apropos-sort-by-scores t) ;Apropos sorts results by relevancy
+
 (provide 'general-settings)
 ;;; general-settings.el ends here

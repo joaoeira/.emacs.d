@@ -37,5 +37,33 @@
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c C-l") 'org-insert-link)
 
+(global-set-key (kbd "C-c c") 'org-capture)
+
+
+ (setq org-directory "Dropbox/emacs")
+
+
+;;MARKDOWN MODE CONFIGURATION
+(use-package markdown-mode
+  :ensure t
+  :commands (markdown-mode gfm-mode)
+  :mode (("README\\.md\\'" . gfm-mode)
+         ("\\.md\\'" . markdown-mode)
+         ("\\.markdown\\'" . markdown-mode))
+  :init (setq markdown-command "multimarkdown"))
+
+;;ELFEED CONFIGURATION
+(use-package elfeed
+  :ensure t
+
+  )
+
+;;POCKET-READER CONFIGURATION
+(use-package pocket-reader
+  :ensure t
+
+  )
 
 (provide 'package-settings)
+
+

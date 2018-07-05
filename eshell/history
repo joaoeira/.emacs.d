@@ -11,3 +11,5 @@ cd .emacs.d
 ls
 git init
 git remote add origin https://github.com/joaoeira/.emacs.d.git
+cd ..
+bundle exec jekyll serve

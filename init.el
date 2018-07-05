@@ -34,9 +34,24 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("923ee73494ea3611d2a1ff9f31bbf8d71b0b0cc2aeb4a6e0944ec6c83bc0ac23" "c90fd1c669f260120d32ddd20168343f5c717ca69e95d2f805e42e88430c340e" default)))
+ '(org-capture-templates
+   (quote
+    (("t" "New task" entry
+      (file+headline "~/Dropbox/emacs/main.org" "To-Do")
+      "** TODO %?")
+     ("a" "Something to put in Anki" entry
+      (file+headline "~/Dropbox/emacs/main.org" "Anki")
+      "** TODO %?"))))
+ '(org-format-latex-options
+   (quote
+    (:foreground default :background default :scale 2.0 :html-foreground "Black" :html-background "Transparent" :html-scale 1.0 :matchers
+                 ("begin" "$1" "$" "$$" "\\(" "\\["))))
  '(package-selected-packages
    (quote
-    (ein org-download org-noter pdf-tools use-package magit ido-vertical-mode ido-completing-read+ smex flycheck cyberpunk-theme))))
+    (pocket-reader elfeed flatland-theme markdown-mode ein org-download org-noter pdf-tools use-package magit ido-vertical-mode ido-completing-read+ smex flycheck cyberpunk-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -56,6 +71,7 @@
 (require 'package-settings)
 (package-initialize) ;; loading packages from package.el
 (require 'general-settings)
+(require 'elfeed-settings)
 
 ;;cyberpunk theme
 (load-theme 'cyberpunk t)
@@ -75,6 +91,9 @@
 ;(global-flycheck-mode)
 
 (pdf-tools-install)
+
+(require 'ein)
+
 
 
 ;; separate settings files
