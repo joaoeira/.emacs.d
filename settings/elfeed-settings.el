@@ -86,6 +86,7 @@
         "https://adamtooze.com/feed/"
         "https://www.bloomberg.com/view/rss/contributors/matt-levine.rss"
         "https://traditionsofconflict.com/blog/"
+        "http://irreal.org/blog/"
         ))
 
 

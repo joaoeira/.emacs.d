@@ -44,14 +44,20 @@
       "** TODO %?")
      ("a" "Something to put in Anki" entry
       (file+headline "~/Dropbox/emacs/main.org" "Anki")
-      "** TODO %?"))))
+      "** TODO %?")
+     ("n" "note" entry
+      (file "~/Dropbox/emacs/ideas.org")
+      "* %? :NOTE:
+%U
+%a
+" :clock-in t :clock-resume t))))
  '(org-format-latex-options
    (quote
     (:foreground default :background default :scale 2.0 :html-foreground "Black" :html-background "Transparent" :html-scale 1.0 :matchers
                  ("begin" "$1" "$" "$$" "\\(" "\\["))))
  '(package-selected-packages
    (quote
-    (pocket-reader elfeed flatland-theme markdown-mode ein org-download org-noter pdf-tools use-package magit ido-vertical-mode ido-completing-read+ smex flycheck cyberpunk-theme))))
+    (nov nov\.el elfeed-goodies pocket-reader elfeed flatland-theme markdown-mode ein org-download org-noter pdf-tools use-package magit ido-vertical-mode ido-completing-read+ smex flycheck cyberpunk-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

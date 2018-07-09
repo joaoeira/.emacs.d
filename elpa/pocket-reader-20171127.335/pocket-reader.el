@@ -576,9 +576,10 @@ other special keywords."
            (fn (or fn (pocket-reader--map-url-open-fn url))))
       (when (funcall fn url)
         ;; Item opened successfully
-        (when pocket-reader-archive-on-open
-          (pocket-reader--with-pocket-reader-buffer
-            (pocket-reader--archive-items (pocket-reader--current-item))))))))
+        ;(when pocket-reader-archive-on-open
+        ;  (pocket-reader--with-pocket-reader-buffer
+        ;    (pocket-reader--archive-items (pocket-reader--current-item)))
+          (visual-line-mode)))));)
 
 (defun pocket-reader-pop-to-url ()
   "Open URL of current item with default pop-to function."

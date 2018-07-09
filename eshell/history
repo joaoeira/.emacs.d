@@ -13,3 +13,15 @@ git init
 git remote add origin https://github.com/joaoeira/.emacs.d.git
 cd ..
 bundle exec jekyll serve
+cd ..
+cd ..
+cd Desktop
+ls
+mkdir Coursera
+cd Coursera
+youtube-dl -h
+youtube-dl https://www.youtube.com/playlist?list=PLyGKBDfnk-iAQx4Kw9JeVqspbg77sfAK0
+youtube-dl https://www.youtube.com/playlist?list=PLyGKBDfnk-iAQx4Kw9JeVqspbg77sfAK0
+cd ..
+bundle exec jekyll serve
+cd _site

@@ -36,8 +36,8 @@
 
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c C-l") 'org-insert-link)
-
 (global-set-key (kbd "C-c c") 'org-capture)
+(global-set-key (kbd "C-c b") (lambda() (interactive)(find-file "~/Dropbox/emacs/main.org")))
 
 
  (setq org-directory "Dropbox/emacs")
@@ -55,11 +55,17 @@
 ;;ELFEED CONFIGURATION
 (use-package elfeed
   :ensure t
-
   )
+
 
 ;;POCKET-READER CONFIGURATION
 (use-package pocket-reader
+  :ensure t
+
+  )
+
+;;NOV.EL CONFIGURATION
+(use-package nov
   :ensure t
 
   )
