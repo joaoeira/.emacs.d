@@ -1,31 +1,45 @@
 
 ;; ----- smex-history -----
 (
- eval-buffer
+ elfeed-update
+ elfeed
  visual-line-mode
+ flycheck-mode
+ eshell
  make-directory
- package-install
- list-packages
- org-noter
- image-transform-set-scale
+ dired
 )
 
 ;; ----- smex-data -----
 (
  (customize-group . 2)
- (eshell . 3)
+ (eshell . 7)
  (package-install . 5)
  (magit-version . 2)
- (eval-buffer . 44)
- (flycheck-mode . 2)
+ (eval-buffer . 48)
+ (flycheck-mode . 3)
  (pdf-tools-help . 2)
  (pdf-tools-customize . 1)
  (linum-mode . 12)
  (delete-window . 1)
- (org-noter . 5)
+ (org-noter . 7)
  (pdf-tools-enable-minor-modes . 1)
- (visual-line-mode . 3)
+ (visual-line-mode . 14)
  (image-transform-set-scale . 1)
  (list-packages . 1)
- (make-directory . 2)
+ (make-directory . 3)
+ (query-replace . 14)
+ (dired . 3)
+ (nov-mode . 1)
+ (elfeed . 7)
+ (elfeed-update . 44)
+ (pocket-reader . 4)
+ (org-open-at-point . 1)
+ (ein:notebooklist-menu . 1)
+ (ein:notebooklist-open . 2)
+ (ein:notebooklist-login . 1)
+ (load-theme . 2)
+ (pocket-reader-refresh . 1)
+ (pocket-reader-open-url . 2)
+ (find-library . 1)
 )

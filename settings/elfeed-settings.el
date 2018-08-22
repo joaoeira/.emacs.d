@@ -87,6 +87,7 @@
         "https://www.bloomberg.com/view/rss/contributors/matt-levine.rss"
         "https://traditionsofconflict.com/blog/"
         "http://irreal.org/blog/"
+        "http://www.econlib.org/feed/"
         ))
 
 
@@ -97,5 +98,9 @@
 
 (global-set-key (kbd "C-x w") 'elfeed)
 
+(defun elfeed-mark-all-as-read ()
+      (interactive)
+      (mark-whole-buffer)
+      (elfeed-search-untag-all-unread))
 
 (provide 'elfeed-settings)

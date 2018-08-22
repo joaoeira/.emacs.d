@@ -25,3 +25,41 @@ youtube-dl https://www.youtube.com/playlist?list=PLyGKBDfnk-iAQx4Kw9JeVqspbg77sf
 cd ..
 bundle exec jekyll serve
 cd _site
+npm install react-native-camera --save-react-native link react-native-camera
+cd ..
+cd ..
+cd Utilities
+cd Github
+ls
+cd private_site/
+bundle exec jekyll serve
+cc 1.1.c
+ls
+cc 1_1.c
+cc 1_1.c
+cc 1_1.c
+cc 1_1.c
+ls
+a.out
+a.out
+/a.out
+./a.out
+cc 1_2.c
+cc 1_2.c
+cc 1_2.c
+cc 1_2.c
+cc 1_2.c
+./a.out
+cc 1_3.c
+cc 1_3.c
+cc 1_3.c
+cc 1_3.c
+./a.out
+cc 1_3.c
+cc 1_3.c
+cc 1_3.c
+cc 1_3.c
+./a.out
+cc Ex_1-6.c 
+cc Ex_1-6.c 
+./a.out
